@@ -15,8 +15,17 @@ struct FoodItemsListView: View {
         
         List(department.items) { currentItem in
             
-            Text(currentItem.name)
-                .font(.title2)
+            VStack(alignment: .leading) {
+                
+                Text(currentItem.name)
+                    .font(.title2)
+                
+                Image(currentItem.image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 200)
+
+            }
             
         }
         .listStyle(.plain)
