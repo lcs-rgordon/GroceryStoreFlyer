@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DepartmentsListView.swift
 //  GroceryStoreFlyer
 //
 //  Created by Russell Gordon on 2025-01-06.
@@ -16,7 +16,7 @@ struct DepartmentsListView: View {
             List(thisWeeksFlyer.departments) { currentDepartment in
                 
                 NavigationLink {
-                    EmptyView()
+                    FoodItemsListView(department: currentDepartment)
                 } label: {
                     Text(currentDepartment.name)
                         .font(.title2)
