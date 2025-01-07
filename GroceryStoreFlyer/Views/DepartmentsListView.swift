@@ -10,8 +10,12 @@ import SwiftUI
 struct DepartmentsListView: View {
     var body: some View {
         NavigationStack {
-            Text("Departments")
-                .navigationTitle("Weekly Flyer")
+            List(thisWeeksFlyer.departments) { currentDepartment in
+                
+                Text(currentDepartment.name)
+                
+            }
+            .navigationTitle("Weekly Flyer")
         }
     }
 }

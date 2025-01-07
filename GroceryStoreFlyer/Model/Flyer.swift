@@ -11,13 +11,13 @@ struct Flyer {
     let departments: [Department]
 }
 
-struct Department {
+struct Department: Identifiable {
     let id = UUID()
     let name: String
     let items: [FoodItem]
 }
 
-struct FoodItem {
+struct FoodItem: Identifiable {
     let id = UUID()
     let name: String
     let image: String
@@ -59,6 +59,25 @@ let thisWeeksFlyer = Flyer(
             ]
         ),
         
+        Department(
+            name: "Bulk Foods",
+            items: [
+            
+                FoodItem(
+                    name: "Expo Rainbow Mix",
+                
+                    image: ""
+                ),
+
+                FoodItem(
+                    name: "Cashew",
+                
+                    image: ""
+                ),
+
+                
+            ]
+        )
         
     ]
 )
