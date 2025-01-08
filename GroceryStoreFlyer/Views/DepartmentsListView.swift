@@ -16,7 +16,7 @@ struct DepartmentsListView: View {
             List(thisWeeksFlyer.departments) { currentDepartment in
                 
                 NavigationLink {
-                    FoodItemsListView(department: currentDepartment)
+                    DepartmentDetailView(department: currentDepartment)
                 } label: {
                     Text(currentDepartment.name)
                         .font(.title2)

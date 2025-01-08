@@ -1,5 +1,5 @@
 //
-//  FoodItemsListView.swift
+//  DepartmentDetailView.swift
 //  GroceryStoreFlyer
 //
 //  Created by Russell Gordon on 2025-01-06.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FoodItemsListView: View {
+struct DepartmentDetailView: View {
     
     let department: Department
     
@@ -37,6 +37,6 @@ struct FoodItemsListView: View {
 
 #Preview {
     NavigationStack {
-        FoodItemsListView(department: thisWeeksFlyer.departments.first!)
+        DepartmentDetailView(department: thisWeeksFlyer.departments.first!)
     }
 }
