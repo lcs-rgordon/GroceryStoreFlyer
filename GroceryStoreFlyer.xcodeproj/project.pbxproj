@@ -11,6 +11,7 @@
 		81321B742D5392E10085BB45 /* GroceryStoreFlyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81321B712D5392E10085BB45 /* GroceryStoreFlyerApp.swift */; };
 		81321B752D5392E10085BB45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81321B6D2D5392E10085BB45 /* Preview Assets.xcassets */; };
 		81321B762D5392E10085BB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81321B6F2D5392E10085BB45 /* Assets.xcassets */; };
+		81321B7A2D5395040085BB45 /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81321B792D5395040085BB45 /* Flyer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		81321B6F2D5392E10085BB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81321B702D5392E10085BB45 /* DepartmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsListView.swift; sourceTree = "<group>"; };
 		81321B712D5392E10085BB45 /* GroceryStoreFlyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFlyerApp.swift; sourceTree = "<group>"; };
+		81321B792D5395040085BB45 /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		81321B772D5392ED0085BB45 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81321B792D5395040085BB45 /* Flyer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81321B732D5392E10085BB45 /* DepartmentsListView.swift in Sources */,
+				81321B7A2D5395040085BB45 /* Flyer.swift in Sources */,
 				81321B742D5392E10085BB45 /* GroceryStoreFlyerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
